@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("");
+  background-position: 50% 50%;
+  background-color: black;
+}
+main {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+
+h1, h2, legend {
+  color: beige;
+  font-family: monospace;
+  margin: 2rem 0;
+}
+h1, h2 {
+  font-size: 3rem;
+}
+
+table {
+  background-color: beige;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+tbody {
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+td {
+  border: 1px solid thistle;
+}
+
+input {
+  height: 3.2rem;
+  width: 3.2rem;
+
+  text-align: center;
+  font-size: 2.5rem;
+  color: #555;
+  
+}
+
+table, th, td {
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+#success {
+  /* width: 100%; */
+  background-color: #aae390bb;
+  padding: 20px 10px;
+  margin-top: 15px;
+  border-radius: 12px;
+  display: none;
+  flex-direction: column;
+}
+
+#success h1 {
+  font-size: 5rem;
+}
+#success h1,
+#success h2 {
+  color: #fff;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
